@@ -1,0 +1,127 @@
+.math-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg);
+    width: 100%;
+    max-width: 500px;
+}
+
+.difficulty-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.difficulty-btn {
+    background: white;
+    border: 3px solid #ddd;
+    border-radius: var(--radius-lg);
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s;
+    box-shadow: 0 4px 0 #ccc;
+}
+
+.difficulty-btn:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+.difficulty-btn.easy {
+    border-color: #2ECC40;
+    color: #2ECC40;
+}
+
+.difficulty-btn.easy:hover {
+    background: #2ECC40;
+    color: white;
+}
+
+.difficulty-btn.hard {
+    border-color: #FF4136;
+    color: #FF4136;
+}
+
+.difficulty-btn.hard:hover {
+    background: #FF4136;
+    color: white;
+}
+
+.difficulty-range {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.problem-card {
+    background: white;
+    padding: 30px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    gap: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-text);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.operator {
+    color: var(--color-primary);
+}
+
+.equals {
+    color: #aaa;
+}
+
+.question-mark {
+    color: var(--color-accent);
+}
+
+.choices-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.choice-btn {
+    background: #0074D9;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--radius-md);
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 4px 0 #0056a3;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.choice-btn:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+.math-feedback {
+    animation: popIn 0.3s ease;
+    text-align: center;
+}
+
+.back-btn-math {
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 20px;
+}

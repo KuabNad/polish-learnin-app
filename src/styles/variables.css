@@ -1,0 +1,42 @@
+:root {
+  /* Brand Colors - Playful & Vibrant */
+  --color-primary: #FFD93D;
+  /* Sunny Yellow */
+  --color-secondary: #6BCB77;
+  /* Grass Green */
+  --color-accent: #4D96FF;
+  /* Sky Blue */
+  --color-danger: #FF6B6B;
+  /* Soft Red */
+  --color-text: #2C3E50;
+  /* Dark Blue-Grey */
+  --color-bg: #F0F4F8;
+  /* Light Cloud White */
+  --color-card-bg: #FFFFFF;
+
+  /* Shadows for "Cutout" effect */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-floating: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+  /* Typography */
+  --font-family-main: 'Nunito', sans-serif;
+  --font-size-sm: 14px;
+  --font-size-base: 18px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Borders */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+}

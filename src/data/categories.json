@@ -1,0 +1,1473 @@
+[
+  {
+    "id": "animals",
+    "nameEs": "Animales",
+    "namePl": "Zwierzęta",
+    "image": "🐾",
+    "subcategories": [
+      {
+        "id": "vertebrates",
+        "nameEs": "Vertebrados",
+        "namePl": "Kręgowce",
+        "subcategories": [
+          {
+            "id": "mammals",
+            "nameEs": "Mamíferos",
+            "namePl": "Ssaki",
+            "image": "🦁",
+            "items": [
+              {
+                "id": "dog",
+                "es": "Perro",
+                "pl": "Pies",
+                "image": "🐶"
+              },
+              {
+                "id": "cat",
+                "es": "Gato",
+                "pl": "Kot",
+                "image": "🐱"
+              },
+              {
+                "id": "cow",
+                "es": "Vaca",
+                "pl": "Krowa",
+                "image": "🐮"
+              },
+              {
+                "id": "pig",
+                "es": "Cerdo",
+                "pl": "Świnia",
+                "image": "🐷"
+              },
+              {
+                "id": "horse",
+                "es": "Caballo",
+                "pl": "Koń",
+                "image": "🐴"
+              },
+              {
+                "id": "elephant",
+                "es": "Elefante",
+                "pl": "Słoń",
+                "image": "🐘"
+              },
+              {
+                "id": "lion",
+                "es": "León",
+                "pl": "Lew",
+                "image": "🦁"
+              },
+              {
+                "id": "rabbit",
+                "es": "Conejo",
+                "pl": "Królik",
+                "image": "🐰"
+              },
+              {
+                "id": "sheep",
+                "es": "Oveja",
+                "pl": "Owca",
+                "image": "🐑"
+              },
+              {
+                "id": "monkey",
+                "es": "Mono",
+                "pl": "Małpa",
+                "image": "🐵"
+              },
+              {
+                "id": "bear",
+                "es": "Oso",
+                "pl": "Niedźwiedź",
+                "image": "🐻"
+              },
+              {
+                "id": "mouse",
+                "es": "Ratón",
+                "pl": "Mysz",
+                "image": "🐭"
+              },
+              {
+                "id": "tiger",
+                "es": "Tigre",
+                "pl": "Tygrys",
+                "image": "🐯"
+              }
+            ]
+          },
+          {
+            "id": "reptiles",
+            "nameEs": "Reptiles",
+            "namePl": "Gady",
+            "image": "🐍",
+            "items": [
+              {
+                "id": "snake",
+                "es": "Serpiente",
+                "pl": "Wąż",
+                "image": "🐍"
+              },
+              {
+                "id": "turtle",
+                "es": "Tortuga",
+                "pl": "Żółw",
+                "image": "🐢"
+              },
+              {
+                "id": "lizard",
+                "es": "Lagarto",
+                "pl": "Jaszczurka",
+                "image": "🦎"
+              },
+              {
+                "id": "crocodile",
+                "es": "Cocodrilo",
+                "pl": "Krokodyl",
+                "image": "🐊"
+              }
+            ]
+          },
+          {
+            "id": "birds",
+            "nameEs": "Aves",
+            "namePl": "Ptaki",
+            "image": "🐦",
+            "items": [
+              {
+                "id": "bird",
+                "es": "Pájaro",
+                "pl": "Ptak",
+                "image": "🐦"
+              },
+              {
+                "id": "chicken",
+                "es": "Pollo",
+                "pl": "Kurczak",
+                "image": "🐔"
+              },
+              {
+                "id": "duck",
+                "es": "Pato",
+                "pl": "Kaczka",
+                "image": "🦆"
+              },
+              {
+                "id": "owl",
+                "es": "Búho",
+                "pl": "Sowa",
+                "image": "🦉"
+              },
+              {
+                "id": "penguin",
+                "es": "Pingüino",
+                "pl": "Pingwin",
+                "image": "🐧"
+              }
+            ]
+          },
+          {
+            "id": "amphibians_fish",
+            "nameEs": "Peces y Anfibios",
+            "namePl": "Ryby i Płazy",
+            "image": "🐸",
+            "items": [
+              {
+                "id": "fish",
+                "es": "Pez",
+                "pl": "Ryba",
+                "image": "🐟"
+              },
+              {
+                "id": "frog",
+                "es": "Rana",
+                "pl": "Żaba",
+                "image": "🐸"
+              },
+              {
+                "id": "shark",
+                "es": "Tiburón",
+                "pl": "Rekin",
+                "image": "🦈"
+              },
+              {
+                "id": "octopus",
+                "es": "Pulpo",
+                "pl": "Ośmiornica",
+                "image": "🐙"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "invertebrates",
+        "nameEs": "Invertebrados",
+        "namePl": "Bezkręgowce",
+        "image": "🐌",
+        "items": [
+          {
+            "id": "butterfly",
+            "es": "Mariposa",
+            "pl": "Motyl",
+            "image": "🦋"
+          },
+          {
+            "id": "bee",
+            "es": "Abeja",
+            "pl": "Pszczoła",
+            "image": "🐝"
+          },
+          {
+            "id": "spider",
+            "es": "Araña",
+            "pl": "Pająk",
+            "image": "🕷️"
+          },
+          {
+            "id": "ant",
+            "es": "Hormiga",
+            "pl": "Mrówka",
+            "image": "🐜"
+          },
+          {
+            "id": "snail",
+            "es": "Caracol",
+            "pl": "Ślimak",
+            "image": "🐌"
+          },
+          {
+            "id": "ladybug",
+            "es": "Mariquita",
+            "pl": "Biedronka",
+            "image": "🐞"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colors",
+    "nameEs": "Colores",
+    "namePl": "Kolory",
+    "image": "🎨",
+    "specialView": "colors",
+    "subcategories": [
+      {
+        "id": "primary",
+        "nameEs": "Primarios",
+        "namePl": "Podstawowe",
+        "image": "🎨",
+        "items": [
+          {
+            "id": "red",
+            "es": "Rojo",
+            "pl": "Czerwony",
+            "image": "🔴"
+          },
+          {
+            "id": "blue",
+            "es": "Azul",
+            "pl": "Niebieski",
+            "image": "🔵"
+          },
+          {
+            "id": "yellow",
+            "es": "Amarillo",
+            "pl": "Żółty",
+            "image": "🟡"
+          }
+        ]
+      },
+      {
+        "id": "secondary",
+        "nameEs": "Secundarios",
+        "namePl": "Pochodne",
+        "image": "🎭",
+        "items": [
+          {
+            "id": "green",
+            "es": "Verde",
+            "pl": "Zielony",
+            "image": "🟢"
+          },
+          {
+            "id": "orange",
+            "es": "Naranja",
+            "pl": "Pomarańczowy",
+            "image": "🟠"
+          },
+          {
+            "id": "purple",
+            "es": "Morado",
+            "pl": "Fioletowy",
+            "image": "🟣"
+          }
+        ]
+      },
+      {
+        "id": "other_colors",
+        "nameEs": "Otros Colores",
+        "namePl": "Inne Kolory",
+        "image": "🌈",
+        "items": [
+          {
+            "id": "pink",
+            "es": "Rosa",
+            "pl": "Różowy",
+            "image": "🩷"
+          },
+          {
+            "id": "black",
+            "es": "Negro",
+            "pl": "Czarny",
+            "image": "⚫"
+          },
+          {
+            "id": "white",
+            "es": "Blanco",
+            "pl": "Biały",
+            "image": "⚪"
+          },
+          {
+            "id": "brown",
+            "es": "Marrón",
+            "pl": "Brązowy",
+            "image": "🟤"
+          },
+          {
+            "id": "gray",
+            "es": "Gris",
+            "pl": "Szary",
+            "image": "🩶"
+          },
+          {
+            "id": "gold",
+            "es": "Dorado",
+            "pl": "Złoty",
+            "image": "🪙"
+          },
+          {
+            "id": "silver",
+            "es": "Plateado",
+            "pl": "Srebrny",
+            "image": "🥈"
+          },
+          {
+            "id": "turquoise",
+            "es": "Turquesa",
+            "pl": "Turkusowy",
+            "image": "💠"
+          }
+        ]
+      },
+      {
+        "id": "mixing_lab",
+        "nameEs": "Laboratorio de Mezclas",
+        "namePl": "Laboratorium Kolorów",
+        "description": "¡Mezcla colores! / Mieszaj kolory!",
+        "image": "🧪",
+        "specialView": "mixing"
+      }
+    ]
+  },
+  {
+    "id": "math",
+    "nameEs": "Matemáticas",
+    "namePl": "Matematyka",
+    "image": "🧮",
+    "specialView": "math_game"
+  },
+  {
+    "id": "flags",
+    "nameEs": "Banderas",
+    "namePl": "Flagi",
+    "image": "🏁",
+    "items": [
+      {
+        "id": "poland",
+        "es": "Polonia",
+        "pl": "Polska",
+        "image": "🇵🇱"
+      },
+      {
+        "id": "spain",
+        "es": "España",
+        "pl": "Hiszpania",
+        "image": "🇪🇸"
+      },
+      {
+        "id": "usa",
+        "es": "Estados Unidos",
+        "pl": "Stany Zjednoczone",
+        "image": "🇺🇸"
+      },
+      {
+        "id": "uk",
+        "es": "Reino Unido",
+        "pl": "Wielka Brytania",
+        "image": "🇬🇧"
+      },
+      {
+        "id": "france",
+        "es": "Francia",
+        "pl": "Francja",
+        "image": "🇫🇷"
+      },
+      {
+        "id": "germany",
+        "es": "Alemania",
+        "pl": "Niemcy",
+        "image": "🇩🇪"
+      },
+      {
+        "id": "italy",
+        "es": "Italia",
+        "pl": "Włochy",
+        "image": "🇮🇹"
+      },
+      {
+        "id": "portugal",
+        "es": "Portugal",
+        "pl": "Portugalia",
+        "image": "🇵🇹"
+      },
+      {
+        "id": "netherlands",
+        "es": "Países Bajos",
+        "pl": "Holandia",
+        "image": "🇳🇱"
+      },
+      {
+        "id": "belgium",
+        "es": "Bélgica",
+        "pl": "Belgia",
+        "image": "🇧🇪"
+      },
+      {
+        "id": "sweden",
+        "es": "Suecia",
+        "pl": "Szwecja",
+        "image": "🇸🇪"
+      },
+      {
+        "id": "norway",
+        "es": "Noruega",
+        "pl": "Norwegia",
+        "image": "🇳🇴"
+      },
+      {
+        "id": "denmark",
+        "es": "Dinamarca",
+        "pl": "Dania",
+        "image": "🇩🇰"
+      },
+      {
+        "id": "finland",
+        "es": "Finlandia",
+        "pl": "Finlandia",
+        "image": "🇫🇮"
+      },
+      {
+        "id": "russia",
+        "es": "Rusia",
+        "pl": "Rosja",
+        "image": "🇷🇺"
+      },
+      {
+        "id": "ukraine",
+        "es": "Ucrania",
+        "pl": "Ukraina",
+        "image": "🇺🇦"
+      },
+      {
+        "id": "czech",
+        "es": "República Checa",
+        "pl": "Czechy",
+        "image": "🇨🇿"
+      },
+      {
+        "id": "austria",
+        "es": "Austria",
+        "pl": "Austria",
+        "image": "🇦🇹"
+      },
+      {
+        "id": "switzerland",
+        "es": "Suiza",
+        "pl": "Szwajcaria",
+        "image": "🇨🇭"
+      },
+      {
+        "id": "greece",
+        "es": "Grecia",
+        "pl": "Grecja",
+        "image": "🇬🇷"
+      },
+      {
+        "id": "turkey",
+        "es": "Turquía",
+        "pl": "Turcja",
+        "image": "🇹🇷"
+      },
+      {
+        "id": "japan",
+        "es": "Japón",
+        "pl": "Japonia",
+        "image": "🇯🇵"
+      },
+      {
+        "id": "china",
+        "es": "China",
+        "pl": "Chiny",
+        "image": "🇨🇳"
+      },
+      {
+        "id": "south_korea",
+        "es": "Corea del Sur",
+        "pl": "Korea Południowa",
+        "image": "🇰🇷"
+      },
+      {
+        "id": "india",
+        "es": "India",
+        "pl": "Indie",
+        "image": "🇮🇳"
+      },
+      {
+        "id": "brazil",
+        "es": "Brasil",
+        "pl": "Brazylia",
+        "image": "🇧🇷"
+      },
+      {
+        "id": "argentina",
+        "es": "Argentina",
+        "pl": "Argentyna",
+        "image": "🇦🇷"
+      },
+      {
+        "id": "mexico",
+        "es": "México",
+        "pl": "Meksyk",
+        "image": "🇲🇽"
+      },
+      {
+        "id": "canada",
+        "es": "Canadá",
+        "pl": "Kanada",
+        "image": "🇨🇦"
+      },
+      {
+        "id": "australia",
+        "es": "Australia",
+        "pl": "Australia",
+        "image": "🇦🇺"
+      }
+    ]
+  },
+  {
+    "id": "numbers",
+    "nameEs": "Números",
+    "namePl": "Liczby",
+    "image": "🔢",
+    "items": [
+      {
+        "id": "one",
+        "es": "Uno",
+        "pl": "Jeden",
+        "image": "1️⃣"
+      },
+      {
+        "id": "two",
+        "es": "Dos",
+        "pl": "Dwa",
+        "image": "2️⃣"
+      },
+      {
+        "id": "three",
+        "es": "Tres",
+        "pl": "Trzy",
+        "image": "3️⃣"
+      },
+      {
+        "id": "four",
+        "es": "Cuatro",
+        "pl": "Cztery",
+        "image": "4️⃣"
+      },
+      {
+        "id": "five",
+        "es": "Cinco",
+        "pl": "Pięć",
+        "image": "5️⃣"
+      },
+      {
+        "id": "six",
+        "es": "Seis",
+        "pl": "Sześć",
+        "image": "6️⃣"
+      },
+      {
+        "id": "seven",
+        "es": "Siete",
+        "pl": "Siedem",
+        "image": "7️⃣"
+      },
+      {
+        "id": "eight",
+        "es": "Ocho",
+        "pl": "Osiem",
+        "image": "8️⃣"
+      },
+      {
+        "id": "nine",
+        "es": "Nueve",
+        "pl": "Dziewięć",
+        "image": "9️⃣"
+      },
+      {
+        "id": "ten",
+        "es": "Diez",
+        "pl": "Dziesięć",
+        "image": "🔟"
+      },
+      {
+        "id": "eleven",
+        "es": "Once",
+        "pl": "Jedenaście",
+        "image": "1️⃣1️⃣"
+      },
+      {
+        "id": "twelve",
+        "es": "Doce",
+        "pl": "Dwanaście",
+        "image": "1️⃣2️⃣"
+      },
+      {
+        "id": "fifteen",
+        "es": "Quince",
+        "pl": "Piętnaście",
+        "image": "1️⃣5️⃣"
+      },
+      {
+        "id": "twenty",
+        "es": "Veinte",
+        "pl": "Dwadzieścia",
+        "image": "2️⃣0️⃣"
+      },
+      {
+        "id": "twentyfive",
+        "es": "Veinticinco",
+        "pl": "Dwadzieścia pięć",
+        "image": "2️⃣5️⃣"
+      },
+      {
+        "id": "thirty",
+        "es": "Treinta",
+        "pl": "Trzydzieści",
+        "image": "3️⃣0️⃣"
+      },
+      {
+        "id": "forty",
+        "es": "Cuarenta",
+        "pl": "Czterdzieści",
+        "image": "4️⃣0️⃣"
+      },
+      {
+        "id": "fifty",
+        "es": "Cincuenta",
+        "pl": "Pięćdziesiąt",
+        "image": "5️⃣0️⃣"
+      },
+      {
+        "id": "sixty",
+        "es": "Sesenta",
+        "pl": "Sześćdziesiąt",
+        "image": "6️⃣0️⃣"
+      },
+      {
+        "id": "seventy",
+        "es": "Setenta",
+        "pl": "Siedemdziesiąt",
+        "image": "7️⃣0️⃣"
+      },
+      {
+        "id": "eighty",
+        "es": "Ochenta",
+        "pl": "Osiemdziesiąt",
+        "image": "8️⃣0️⃣"
+      },
+      {
+        "id": "ninety",
+        "es": "Noventa",
+        "pl": "Dziewięćdziesiąt",
+        "image": "9️⃣0️⃣"
+      },
+      {
+        "id": "hundred",
+        "es": "Cien",
+        "pl": "Sto",
+        "image": "💯"
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "nameEs": "Comida",
+    "namePl": "Jedzenie",
+    "image": "🍽️",
+    "items": [
+      {
+        "id": "apple",
+        "es": "Manzana",
+        "pl": "Jabłko",
+        "image": "🍎"
+      },
+      {
+        "id": "banana",
+        "es": "Plátano",
+        "pl": "Banan",
+        "image": "🍌"
+      },
+      {
+        "id": "bread",
+        "es": "Pan",
+        "pl": "Chleb",
+        "image": "🍞"
+      },
+      {
+        "id": "cheese",
+        "es": "Queso",
+        "pl": "Ser",
+        "image": "🧀"
+      },
+      {
+        "id": "egg",
+        "es": "Huevo",
+        "pl": "Jajko",
+        "image": "🥚"
+      },
+      {
+        "id": "milk",
+        "es": "Leche",
+        "pl": "Mleko",
+        "image": "🥛"
+      },
+      {
+        "id": "water",
+        "es": "Agua",
+        "pl": "Woda",
+        "image": "💧"
+      },
+      {
+        "id": "strawberry",
+        "es": "Fresa",
+        "pl": "Truskawka",
+        "image": "🍓"
+      },
+      {
+        "id": "potato",
+        "es": "Patata",
+        "pl": "Ziemniak",
+        "image": "🥔"
+      },
+      {
+        "id": "tomato",
+        "es": "Tomate",
+        "pl": "Pomidor",
+        "image": "🍅"
+      },
+      {
+        "id": "carrot",
+        "es": "Zanahoria",
+        "pl": "Marchewka",
+        "image": "🥕"
+      },
+      {
+        "id": "pizza",
+        "es": "Pizza",
+        "pl": "Pizza",
+        "image": "🍕"
+      },
+      {
+        "id": "ice_cream",
+        "es": "Helado",
+        "pl": "Lody",
+        "image": "🍦"
+      },
+      {
+        "id": "cookie",
+        "es": "Galleta",
+        "pl": "Ciastko",
+        "image": "🍪"
+      },
+      {
+        "id": "cake",
+        "es": "Pastel",
+        "pl": "Ciasto",
+        "image": "🍰"
+      },
+      {
+        "id": "orange_fruit",
+        "es": "Naranja",
+        "pl": "Pomarańcza",
+        "image": "🍊"
+      },
+      {
+        "id": "grapes",
+        "es": "Uvas",
+        "pl": "Winogrona",
+        "image": "🍇"
+      },
+      {
+        "id": "watermelon",
+        "es": "Sandía",
+        "pl": "Arbuz",
+        "image": "🍉"
+      },
+      {
+        "id": "pear",
+        "es": "Pera",
+        "pl": "Gruszka",
+        "image": "🍐"
+      },
+      {
+        "id": "cherry",
+        "es": "Cereza",
+        "pl": "Wiśnia",
+        "image": "🍒"
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "nameEs": "Familia",
+    "namePl": "Rodzina",
+    "image": "👨‍👩‍👧‍👦",
+    "items": [
+      {
+        "id": "mom",
+        "es": "Mamá",
+        "pl": "Mama",
+        "image": "👩"
+      },
+      {
+        "id": "dad",
+        "es": "Papá",
+        "pl": "Tata",
+        "image": "👨"
+      },
+      {
+        "id": "brother",
+        "es": "Hermano",
+        "pl": "Brat",
+        "image": "👦"
+      },
+      {
+        "id": "sister",
+        "es": "Hermana",
+        "pl": "Siostra",
+        "image": "👧"
+      },
+      {
+        "id": "grandma",
+        "es": "Abuela",
+        "pl": "Babcia",
+        "image": "👵"
+      },
+      {
+        "id": "grandpa",
+        "es": "Abuelo",
+        "pl": "Dziadek",
+        "image": "👴"
+      },
+      {
+        "id": "baby",
+        "es": "Bebé",
+        "pl": "Dziecko",
+        "image": "👶"
+      },
+      {
+        "id": "aunt",
+        "es": "Tía",
+        "pl": "Ciocia",
+        "image": "👩"
+      },
+      {
+        "id": "uncle",
+        "es": "Tío",
+        "pl": "Wujek",
+        "image": "👨"
+      },
+      {
+        "id": "cousin_m",
+        "es": "Primo",
+        "pl": "Kuzyn",
+        "image": "👦"
+      },
+      {
+        "id": "cousin_f",
+        "es": "Prima",
+        "pl": "Kuzynka",
+        "image": "👧"
+      }
+    ]
+  },
+  {
+    "id": "body",
+    "nameEs": "Cuerpo",
+    "namePl": "Ciało",
+    "image": "💪",
+    "items": [
+      {
+        "id": "head",
+        "es": "Cabeza",
+        "pl": "Głowa",
+        "image": "👱‍♂️"
+      },
+      {
+        "id": "eye",
+        "es": "Ojo",
+        "pl": "Oko",
+        "image": "👁️"
+      },
+      {
+        "id": "ear",
+        "es": "Oreja",
+        "pl": "Ucho",
+        "image": "👂"
+      },
+      {
+        "id": "nose",
+        "es": "Nariz",
+        "pl": "Nos",
+        "image": "👃"
+      },
+      {
+        "id": "mouth",
+        "es": "Boca",
+        "pl": "Usta",
+        "image": "👄"
+      },
+      {
+        "id": "hand",
+        "es": "Mano",
+        "pl": "Ręka",
+        "image": "✋"
+      },
+      {
+        "id": "leg",
+        "es": "Pierna",
+        "pl": "Noga",
+        "image": "🦵"
+      },
+      {
+        "id": "foot",
+        "es": "Pie",
+        "pl": "Stopa",
+        "image": "🦶"
+      },
+      {
+        "id": "hair",
+        "es": "Pelo",
+        "pl": "Włosy",
+        "image": "💇‍♂️"
+      },
+      {
+        "id": "finger",
+        "es": "Dedo",
+        "pl": "Palec",
+        "image": "👆"
+      },
+      {
+        "id": "teeth",
+        "es": "Dientes",
+        "pl": "Zęby",
+        "image": "🦷"
+      }
+    ]
+  },
+  {
+    "id": "clothes",
+    "nameEs": "Ropa",
+    "namePl": "Ubrania",
+    "image": "👕",
+    "items": [
+      {
+        "id": "shirt",
+        "es": "Camiseta",
+        "pl": "Koszulka",
+        "image": "👕"
+      },
+      {
+        "id": "pants",
+        "es": "Pantalones",
+        "pl": "Spodnie",
+        "image": "👖"
+      },
+      {
+        "id": "shoes",
+        "es": "Zapatos",
+        "pl": "Buty",
+        "image": "👞"
+      },
+      {
+        "id": "dress",
+        "es": "Vestido",
+        "pl": "Sukienka",
+        "image": "👗"
+      },
+      {
+        "id": "hat",
+        "es": "Sombrero",
+        "pl": "Czapka",
+        "image": "🧢"
+      },
+      {
+        "id": "socks",
+        "es": "Calcetines",
+        "pl": "Skarpetki",
+        "image": "🧦"
+      },
+      {
+        "id": "jacket",
+        "es": "Chaqueta",
+        "pl": "Kurtka",
+        "image": "🧥"
+      },
+      {
+        "id": "glasses",
+        "es": "Gafas",
+        "pl": "Okulary",
+        "image": "👓"
+      },
+      {
+        "id": "scarf",
+        "es": "Bufanda",
+        "pl": "Szalik",
+        "image": "🧣"
+      },
+      {
+        "id": "gloves",
+        "es": "Guantes",
+        "pl": "Rękawiczki",
+        "image": "🧤"
+      }
+    ]
+  },
+  {
+    "id": "transport",
+    "nameEs": "Transporte",
+    "namePl": "Transport",
+    "image": "🚗",
+    "items": [
+      {
+        "id": "car",
+        "es": "Coche",
+        "pl": "Samochód",
+        "image": "🚗"
+      },
+      {
+        "id": "bus",
+        "es": "Autobús",
+        "pl": "Autobus",
+        "image": "🚌"
+      },
+      {
+        "id": "train",
+        "es": "Tren",
+        "pl": "Pociąg",
+        "image": "🚆"
+      },
+      {
+        "id": "bike",
+        "es": "Bicicleta",
+        "pl": "Rower",
+        "image": "🚲"
+      },
+      {
+        "id": "plane",
+        "es": "Avión",
+        "pl": "Samolot",
+        "image": "✈️"
+      },
+      {
+        "id": "boat",
+        "es": "Barco",
+        "pl": "Statek",
+        "image": "🚢"
+      },
+      {
+        "id": "truck",
+        "es": "Camión",
+        "pl": "Ciężarówka",
+        "image": "🚛"
+      },
+      {
+        "id": "taxi",
+        "es": "Taxi",
+        "pl": "Taksówka",
+        "image": "🚕"
+      },
+      {
+        "id": "motorcycle",
+        "es": "Moto",
+        "pl": "Motocykl",
+        "image": "🏍️"
+      },
+      {
+        "id": "helicopter",
+        "es": "Helicóptero",
+        "pl": "Helikopter",
+        "image": "🚁"
+      }
+    ]
+  },
+  {
+    "id": "house",
+    "nameEs": "Casa",
+    "namePl": "Dom",
+    "image": "🏠",
+    "items": [
+      {
+        "id": "door",
+        "es": "Puerta",
+        "pl": "Drzwi",
+        "image": "🚪"
+      },
+      {
+        "id": "window",
+        "es": "Ventana",
+        "pl": "Okno",
+        "image": "🪟"
+      },
+      {
+        "id": "clock",
+        "es": "Reloj",
+        "pl": "Zegar",
+        "image": "🕰️"
+      },
+      {
+        "id": "chair",
+        "es": "Silla",
+        "pl": "Krzesło",
+        "image": "🪑"
+      },
+      {
+        "id": "bed",
+        "es": "Cama",
+        "pl": "Łóżko",
+        "image": "🛏️"
+      },
+      {
+        "id": "kitchen",
+        "es": "Cocina",
+        "pl": "Kuchnia",
+        "image": "🍳"
+      },
+      {
+        "id": "bathroom",
+        "es": "Baño",
+        "pl": "Łazienka",
+        "image": "🚽"
+      },
+      {
+        "id": "tv",
+        "es": "Tele",
+        "pl": "Telewizor",
+        "image": "📺"
+      },
+      {
+        "id": "lamp",
+        "es": "Lámpara",
+        "pl": "Lampa",
+        "image": "💡"
+      },
+      {
+        "id": "sofa",
+        "es": "Sofá",
+        "pl": "Kanapa",
+        "image": "🛋️"
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "nameEs": "Naturaleza",
+    "namePl": "Przyroda",
+    "image": "🌳",
+    "subcategories": [
+      {
+        "id": "universe",
+        "nameEs": "Universo",
+        "namePl": "Wszechświat",
+        "image": "🌌",
+        "items": [
+          {
+            "id": "sun",
+            "es": "Sol",
+            "pl": "Słońce",
+            "image": "☀️"
+          },
+          {
+            "id": "mercury",
+            "es": "Mercurio",
+            "pl": "Merkury",
+            "image": "☿️"
+          },
+          {
+            "id": "venus",
+            "es": "Venus",
+            "pl": "Wenus",
+            "image": "♀️"
+          },
+          {
+            "id": "earth",
+            "es": "Tierra",
+            "pl": "Ziemia",
+            "image": "🌍"
+          },
+          {
+            "id": "mars",
+            "es": "Marte",
+            "pl": "Mars",
+            "image": "🔴"
+          },
+          {
+            "id": "jupiter",
+            "es": "Júpiter",
+            "pl": "Jowisz",
+            "image": "🪐"
+          },
+          {
+            "id": "saturn",
+            "es": "Saturno",
+            "pl": "Saturn",
+            "image": "🪐"
+          },
+          {
+            "id": "uranus",
+            "es": "Urano",
+            "pl": "Uran",
+            "image": "💙"
+          },
+          {
+            "id": "neptune",
+            "es": "Neptuno",
+            "pl": "Neptun",
+            "image": "💙"
+          },
+          {
+            "id": "moon",
+            "es": "Luna",
+            "pl": "Księżyc",
+            "image": "🌙"
+          },
+          {
+            "id": "star",
+            "es": "Estrella",
+            "pl": "Gwiazda",
+            "image": "⭐"
+          },
+          {
+            "id": "milky_way",
+            "es": "Vía Láctea",
+            "pl": "Droga Mleczna",
+            "image": "🌌"
+          },
+          {
+            "id": "galaxy",
+            "es": "Galaxia",
+            "pl": "Galaktyka",
+            "image": "🌀"
+          },
+          {
+            "id": "satellite",
+            "es": "Satélite",
+            "pl": "Satelita",
+            "image": "🛰️"
+          },
+          {
+            "id": "comet",
+            "es": "Cometa",
+            "pl": "Kometa",
+            "image": "☄️"
+          },
+          {
+            "id": "asteroid",
+            "es": "Asteroide",
+            "pl": "Asteroida",
+            "image": "🪨"
+          }
+        ]
+      },
+      {
+        "id": "earth_nature",
+        "nameEs": "Naturaleza Terrestre",
+        "namePl": "Natura Ziemi",
+        "image": "🌍",
+        "items": [
+          {
+            "id": "tree",
+            "es": "Árbol",
+            "pl": "Drzewo",
+            "image": "🌳"
+          },
+          {
+            "id": "flower",
+            "es": "Flor",
+            "pl": "Kwiat",
+            "image": "🌸"
+          },
+          {
+            "id": "rain",
+            "es": "Lluvia",
+            "pl": "Deszcz",
+            "image": "🌧️"
+          },
+          {
+            "id": "snow",
+            "es": "Nieve",
+            "pl": "Śnieg",
+            "image": "❄️"
+          },
+          {
+            "id": "cloud",
+            "es": "Nube",
+            "pl": "Chmura",
+            "image": "☁️"
+          },
+          {
+            "id": "fire",
+            "es": "Fuego",
+            "pl": "Ogień",
+            "image": "🔥"
+          },
+          {
+            "id": "mountain",
+            "es": "Montaña",
+            "pl": "Góra",
+            "image": "⛰️"
+          },
+          {
+            "id": "ocean",
+            "es": "Océano",
+            "pl": "Ocean",
+            "image": "🌊"
+          },
+          {
+            "id": "river",
+            "es": "Río",
+            "pl": "Rzeka",
+            "image": "🏞️"
+          },
+          {
+            "id": "forest",
+            "es": "Bosque",
+            "pl": "Las",
+            "image": "🌲"
+          },
+          {
+            "id": "desert",
+            "es": "Desierto",
+            "pl": "Pustynia",
+            "image": "🏜️"
+          },
+          {
+            "id": "volcano",
+            "es": "Volcán",
+            "pl": "Wulkan",
+            "image": "🌋"
+          },
+          {
+            "id": "rainbow",
+            "es": "Arco iris",
+            "pl": "Tęcza",
+            "image": "🌈"
+          },
+          {
+            "id": "lightning",
+            "es": "Relámpago",
+            "pl": "Błyskawica",
+            "image": "⚡"
+          },
+          {
+            "id": "wind",
+            "es": "Viento",
+            "pl": "Wiatr",
+            "image": "💨"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "nameEs": "Escuela",
+    "namePl": "Szkoła",
+    "image": "🏫",
+    "items": [
+      {
+        "id": "book",
+        "es": "Libro",
+        "pl": "Książka",
+        "image": "📚"
+      },
+      {
+        "id": "pen",
+        "es": "Boli",
+        "pl": "Długopis",
+        "image": "🖊️"
+      },
+      {
+        "id": "pencil",
+        "es": "Lápiz",
+        "pl": "Ołówek",
+        "image": "✏️"
+      },
+      {
+        "id": "backpack",
+        "es": "Mochila",
+        "pl": "Plecak",
+        "image": "🎒"
+      },
+      {
+        "id": "desk",
+        "es": "Escritorio",
+        "pl": "Biurko",
+        "image": "🪑"
+      },
+      {
+        "id": "paper",
+        "es": "Papel",
+        "pl": "Papier",
+        "image": "📄"
+      },
+      {
+        "id": "scissors",
+        "es": "Tijeras",
+        "pl": "Nożyczki",
+        "image": "✂️"
+      },
+      {
+        "id": "ruler",
+        "es": "Regla",
+        "pl": "Linijka",
+        "image": "📏"
+      },
+      {
+        "id": "teacher",
+        "es": "Maestra",
+        "pl": "Nauczycielka",
+        "image": "👩‍🏫"
+      },
+      {
+        "id": "student",
+        "es": "Estudiante",
+        "pl": "Uczeń",
+        "image": "👨‍🎓"
+      }
+    ]
+  }
+]

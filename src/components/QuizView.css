@@ -1,0 +1,115 @@
+.quiz-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.quiz-word {
+    font-size: 3.5rem;
+    color: var(--color-primary);
+    margin: var(--spacing-lg) 0;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.quiz-word:active {
+    transform: scale(0.95);
+}
+
+.quiz-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+    width: 100%;
+    margin-bottom: var(--spacing-lg);
+}
+
+.quiz-option {
+    background: white;
+    border: 4px solid transparent;
+    border-radius: var(--radius-lg);
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-md);
+    transition: all 0.2s;
+}
+
+.quiz-option:hover:not(:disabled) {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.quiz-option.correct {
+    border-color: var(--color-secondary);
+    background: #E8F5E9;
+    transform: scale(1.1);
+}
+
+.quiz-option.dim {
+    opacity: 0.5;
+}
+
+.option-emoji {
+    font-size: 3rem;
+}
+
+.quiz-progress {
+    font-weight: 700;
+    color: var(--color-text);
+    margin-top: var(--spacing-md);
+}
+
+.quiz-result {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.score {
+    font-size: var(--font-size-xl);
+    color: var(--color-primary);
+    font-weight: 800;
+    margin: var(--spacing-lg) 0;
+}
+
+.restart-btn {
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    padding: var(--spacing-md) var(--spacing-xl);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    box-shadow: var(--shadow-md);
+}
+
+.feedback-anim {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--color-secondary);
+    animation: fadeUp 1s forwards;
+    pointer-events: none;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -150%) scale(1.2);
+    }
+}
