@@ -80,7 +80,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>🇵🇱 Polish for Kids 🇪🇸</h1>
+        <h1>🇵🇱 Polski dla wszystkich 🇪🇸</h1>
         {(view !== 'home' || categoryStack.length > 0) && (
           <button className="back-button" onClick={handleBack}>
             🏠 Volver / Wróć
